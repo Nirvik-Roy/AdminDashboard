@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 
-const Header = () => {
+const Header = ({name}) => {
   
   return (
     <>
@@ -11,7 +11,7 @@ const Header = () => {
        <div className='header_content_wrapper '>
         <p className='header_para1'>
         <i class="fa-solid fa-house"></i>
-        / Dashboard
+        /  {name}
         </p>
         <div className='header_input_wrapper'>
         <div className='header_input_div'>

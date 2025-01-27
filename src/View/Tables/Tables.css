@@ -1,0 +1,27 @@
+.authors_table_wrapper{
+  background: linear-gradient(to right ,rgb(9, 14, 46),rgb(33, 44, 106));
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+
+.authors_table_header{
+  font-size: 15px;
+  font-weight: 500;
+  color: #FFF;
+}
+.author_logo{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author_logo img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.author_name_logo{
+  display: flex;
+}

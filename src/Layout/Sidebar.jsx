@@ -21,7 +21,7 @@ const Sidebar = () => {
       
         </NavLink>
 
-        <NavLink to={'/cc'} className='sidebar_icons_div'>
+        <NavLink to={'/tables'} className='sidebar_icons_div'>
         <div  className='sidebar_icons_div2'>
         <i class="fa-solid fa-chart-simple"></i>
         <NavLink className={'link5'}>Tables</NavLink>
