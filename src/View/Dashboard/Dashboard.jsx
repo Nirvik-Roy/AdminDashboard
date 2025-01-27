@@ -3,6 +3,8 @@ import './Dashboard.css'
 import DashboardCards from './DashboardCards'
 import DashboardUser from './DashboardUser'
 import Satisfactionrate from './Satisfactionrate'
+import ReferralTracking from './ReferralTracking'
+import AreaChart5 from './AreaChart5'
 const Dashboard = () => {
   return (
     <>
@@ -13,6 +15,8 @@ const Dashboard = () => {
                <div className='dashboard_user_wrapper'>
                <DashboardUser/>
                <Satisfactionrate/>
+               <ReferralTracking/>
+               <AreaChart5/>
                </div>
             
              </div>

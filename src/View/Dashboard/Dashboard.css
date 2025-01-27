@@ -46,13 +46,15 @@
 .dashboard_user_wrapper{
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
     column-gap: 20px;
+    row-gap: 30px;
     margin-top: 30px;
 }
 .dashboard_user_div{
     width: 100%;
-    max-width: 40%;
-    min-width: 40%;
+    max-width: 42.5%;
+    min-width: 42.5%;
     background-image: url('../../assets/cardimgfree.5771cbbb.png');
     border-radius: 20px;
     background-position: center;
@@ -93,8 +95,9 @@
     max-width: 23%;
     min-width: 23%;
     border-radius: 20px;
-    padding: 15px 20px 0px 20px;
-    background:linear-gradient(to bottom right ,rgb(17, 18, 50),rgb(27, 30, 99))
+    padding: 25px 20px 30px 20px;
+    background:linear-gradient(to bottom right ,rgb(17, 18, 50),rgb(27, 30, 99));
+    height: 100%;
 }
 .satisfaction_rate_div h3{
 color: white;
@@ -152,4 +155,135 @@ font-weight: 600;
     font-size: 32px;
     font-weight: 600;
     color: white;
+}
+.refer_tracking_div{
+    width: 100%;
+    max-width: 30%;
+    min-width: 30%;
+    background:linear-gradient(to bottom right ,rgb(17, 18, 50),rgb(27, 30, 99));
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+.refer_head_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.refer_head_wrapper h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.refer_head_wrapper i{
+    color: rgb(5, 112, 252);
+    font-size: 22px;
+    padding: 7px 9px;
+    border-radius: 10px;
+    background-color: rgb(34, 36, 74);
+
+}
+.refer_invited_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+.left_refer{
+    width: 100%;
+    max-width: 33%;
+    min-width: 33%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.invited_div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 20px;
+    background-color: rgb(9, 13, 38);
+    padding: 20px 20px;
+}
+.invited_div p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(152, 151, 151);
+}
+.invited_div h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.right_refer{
+    width: 100%;
+    max-width: 65%;
+    min-width: 65%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.rc_progress_circle5{
+    width: 100%;
+    max-width: 90%;
+    min-width: 90%;
+
+
+}
+.right_refer .rc-progress-circle-path{
+    stroke: rgb(12, 158, 125) !important;
+}
+.right_refer .rc-progress-circle-trail{
+    stroke: rgba(33, 35, 76, 0.167) !important;
+}
+.safety_div{
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.safety_div p{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(152, 151, 151);
+}
+.safety_div h3{
+    font-size: 33px;
+    font-weight: 600;
+    color: white;
+}
+.area_chart_div{
+    width: 100%;
+    max-width: 55%;
+    min-width: 55%;
+    border-radius: 20px;
+    height: 400px;
+    background: linear-gradient(to right ,rgb(9, 14, 46),rgb(33, 44, 106));
+    padding: 0px 20px;
+}
+.area_chart_div p{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.area_chart_div h5{
+    color: rgb(127, 136, 165);
+    font-size: 15px;
+}
+.area_chart_div h5 span{
+    color: rgb(22, 167, 120);
+    font-size: 14px;
+    font-weight: 600;
+}
+.area_chart{
+    width: 100%;
+    max-width: 100%;
+    height: 290px;
+    margin-top: 50px;
 }
