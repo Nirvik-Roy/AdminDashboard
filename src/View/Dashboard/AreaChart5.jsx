@@ -83,7 +83,7 @@ const AreaChart5 = () => {
         <h5><span>+5% more</span> in 2021</h5>
         <div className='area_chart'>
         <ResponsiveContainer width='100%'>
-        <AreaChart  height={250} data={data}
+        <AreaChart  height={400} data={data}
   margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
   <defs>
     <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">

@@ -63,7 +63,7 @@ const Projects = () => {
       <div className="ellipsis_vertical_button"><i class="fa-solid fa-ellipsis-vertical" style={{color: "#a0aec0", cursor: "pointer"}}></i></div>
       </div>
         
-
+        
         <table className='projects_table'>
           <thead>
             <tr className='projects_table_row'>
@@ -116,6 +116,7 @@ const Projects = () => {
         ))}
       </tbody>
         </table>
+        
       </div>
     </>
   )

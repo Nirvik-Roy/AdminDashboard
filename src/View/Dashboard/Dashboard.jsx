@@ -26,8 +26,11 @@ const Dashboard = () => {
                <ReferralTracking/>
                <AreaChart5/>
                <BarChart2 />
+               
                <Projects />
                <OrdersOverview />
+               
+               
                </div>
             
              </div>

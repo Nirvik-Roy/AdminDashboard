@@ -44,7 +44,7 @@ const BarChart2 = () => {
   return (
     <>
       <div className="bar_chart_div">
-      <ResponsiveContainer width="90%" height="50%" style={{ backgroundColor: "#060b28", borderRadius: "20px", marginTop: "20px" }}>
+      <ResponsiveContainer width="100%" height={250} style={{ backgroundColor: "#060b28", borderRadius: "20px", marginTop: "20px" }}>
         <BarChart
           height={250}
           data={data}
