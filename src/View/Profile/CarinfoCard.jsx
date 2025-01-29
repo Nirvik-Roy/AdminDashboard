@@ -1,5 +1,7 @@
 import React from 'react'
 import { Line, Circle } from 'rc-progress';
+import blue_small_graph from '../../assets/download (12).png'
+import green_small_graph from '../../assets/download (11).png'
 
 
 const CarinfoCard = () => {
@@ -23,7 +25,10 @@ const CarinfoCard = () => {
             <div className="battery_health_content"><p style={{color:"#8e9bae", fontSize: "12px", fontWeight: "500"}}>Battery Health</p><p style={{fontSize: "20px", color: "#FFF", fontWeight: "600"}}>76%</p></div>
             <div className="battery_health_logo"><i class="fa-solid fa-car-on"></i></div>
           </div>
-          <div className="efficiency_div"></div>
+          <div className="efficiency_div">
+          <div className="efficiency_div_content"><p style={{color:"#8e9bae", fontSize: "12px", fontWeight: "500"}}>Efficiency</p><p style={{fontSize: "20px", color: "#FFF", fontWeight: "600"}}>+20%</p></div>
+          <div className="efficiency_div_logo"><img src={green_small_graph} alt="" /></div>
+          </div>
         </div>
         <div className="consumption_week_wrapper">
 
@@ -31,7 +36,10 @@ const CarinfoCard = () => {
           <div className="consumption_content"><p style={{color:"#8e9bae", fontSize: "12px", fontWeight: "500"}}>Consumption</p><p style={{fontSize: "20px", color: "#FFF", fontWeight: "600"}}>163W/km</p></div>
           <div className="consumption_logo"><i class="fa-solid fa-bolt"></i></div>
           </div>
-          <div className="week_div"></div>
+          <div className="week_div">
+          <div className="week_div_content"><p style={{color:"#8e9bae", fontSize: "12px", fontWeight: "500"}}>This Week</p><p style={{fontSize: "20px", color: "#FFF", fontWeight: "600"}}>1.342km</p></div>
+          <div className="week_div_logo"><img src={blue_small_graph} alt="" /></div>
+          </div>
         </div>
       </div>
     </>

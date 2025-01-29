@@ -4,6 +4,7 @@ import Header from '../../Layout/Header'
 import ProfileInfo from './ProfileInfo'
 import WelcomeCard from './WelcomeCard'
 import CarinfoCard from './CarinfoCard'
+import AboutCard from './AboutCard'
 
 const Profile = () => {
   return (
@@ -17,6 +18,7 @@ const Profile = () => {
             <div className="profile_user_wrapper">
               <WelcomeCard />
               <CarinfoCard />
+              <AboutCard />
             </div>
           </div>
         </div>
