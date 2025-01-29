@@ -9,8 +9,8 @@
 }
 .credit_vision_div{
   width: 100%;
-  min-width: 60%;
-  max-width: 60%;
+  min-width: 65%;
+  max-width: 65%;
 }
 .credit_vision_wrapper{
   display: flex;
@@ -100,6 +100,9 @@
   display: flex;
   column-gap: 25px;
 }
+.payment_method_wrapper{
+  margin-top: 30px;
+}
 .payment_card_wrapper{
   width: 100%;
   background: linear-gradient(to right ,rgb(9, 14, 46),rgb(33, 44, 106));
@@ -110,6 +113,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
+}
+.payment_header_button_wrapper p{
+  color: #FFF;
+  font-weight: 600;
 }
 .add_new_card_button{
   padding: 8px 15px;
@@ -121,16 +129,42 @@
 }
 .card_number_edit_wrapper{
   display: flex;
+  align-items: center;
+  column-gap: 30px;
 }
 .payment_card_edit_section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 10px;
+  padding: 20px 15px;
   border: 1px solid white;
   border-radius: 20px;
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
+}
+.visa_card_edit_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
 }
 .payment_card_edit_section input{
   background: transparent;
-
+  border: none;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 14px;
+}
+.visa_card_edit_section input{
+  background: transparent;
+  border: none;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 14px;
 }
