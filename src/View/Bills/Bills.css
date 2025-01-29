@@ -15,11 +15,12 @@
 .credit_vision_wrapper{
   display: flex;
   column-gap: 30px;
+  width: 100%;
 }
 .debitcard_section_wrapper{
   width: 100%;
-  max-width: 47%;
-  min-width: 47%;
+  max-width: 47.5%;
+  min-width: 47.5%;
   background-image: url('../../assets/billing-background-card.4fa04d9c.png');
   border-radius: 20px;
   padding: 20px 30px;
@@ -48,20 +49,20 @@
 }
 .creditcard_section_wrapper{
   width: 100%;
-  min-width: 47%;
-  max-width: 47%;
+  min-width: 47.5%;
+  max-width: 47.5%;
   border-radius: 20px;
   height: 250px;
   background: linear-gradient(to right ,rgb(9, 14, 46),rgb(33, 44, 106));
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding: 20px;
   flex-direction: column;
 }
 .credit_balance_section{
   background-image: url('../../assets/download.png');
   background-size: cover;
-  width: 93%;
+  width: 100%;
   height: 100px;
   border-radius: 20px;
   padding: 20px;
@@ -71,4 +72,65 @@
   justify-content: space-between;
   align-items: center;
   color: #FFF;
+}
+.credit_balance_head p{
+  font-size: 14px;
+  font-weight: 500;
+}
+.creditcard_newest{
+  color: #9caabd;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+.bill_taxes_wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bill_taxes_logo{
+  background-color: #1b2248;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.bill_taxes_content{
+  display: flex;
+  column-gap: 25px;
+}
+.payment_card_wrapper{
+  width: 100%;
+  background: linear-gradient(to right ,rgb(9, 14, 46),rgb(33, 44, 106));
+  padding: 20px;
+  border-radius: 20px;
+}
+.payment_header_button_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add_new_card_button{
+  padding: 8px 15px;
+  background-color: #0075ff;
+  color: #FFF;
+  font-size: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.card_number_edit_wrapper{
+  display: flex;
+}
+.payment_card_edit_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.payment_card_edit_section input{
+  background: transparent;
+
 }

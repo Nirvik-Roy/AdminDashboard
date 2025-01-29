@@ -8,7 +8,7 @@ const CreditCard = () => {
         <div className="credit_balance_section">
           <div className="credit_balance_head">
             <p>Credit Balance</p>
-            <i class="fa-solid fa-ellipsis"></i>
+            <i class="fa-solid fa-ellipsis" style={{fontSize:"20px"}}></i>
           </div>
           <div style={{display: "flex", justifyContent: "space-between", alignItems: "center"}}>
             <h2 style={{color: "#FFF", fontWeight: "600"}}>$25,215</h2>
@@ -18,6 +18,17 @@ const CreditCard = () => {
         </div>
         <div className="creditcard_newest">
             NEWEST
+          </div>
+          <div className="bill_taxes_wrapper">
+            <div className="bill_taxes_content">
+            <div className="bill_taxes_logo" style={{color:"#FFF"}}>logo</div>
+            <div className="bill_taxes_text">
+            <p style={{color: "#FFF",fontSize:"14px", fontWeight: "500"}}>Bill & Taxes</p>
+            <p style={{color: "#9caabd", fontWeight: "500", fontSize: '14px'}}>Today, 16:36</p>
+            </div>
+              
+            </div>
+            <p style={{color:"#FFF",fontWeight:"600", fontSize:"14px"}}>-$154.50</p>
           </div>
       </div>
     </>

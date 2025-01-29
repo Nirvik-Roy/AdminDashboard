@@ -3,6 +3,7 @@ import './Bills.css'
 import Header from '../../Layout/Header'
 import DebitCard from './DebitCard'
 import CreditCard from './CreditCard'
+import PaymentCard from './PaymentCard'
 
 const Bills = () => {
   useEffect(()=>{
@@ -22,7 +23,7 @@ const Bills = () => {
                 <CreditCard />
               </div>
               <div className="payment_method_wrapper">
-
+                <PaymentCard />
               </div>
             </div>
             <div className="invoices_div"></div>
