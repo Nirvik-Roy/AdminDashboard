@@ -43,7 +43,7 @@ const Sidebar = () => {
     fontWeight:'bold',
     marginTop:'20px'
 }}>ACCOUNT PAGES</p>
-        <NavLink to={'/cc'} className='sidebar_icons_div'>
+        <NavLink to={'/profile'} className='sidebar_icons_div'>
         <div  className='sidebar_icons_div2'>
         <i class="fa-solid fa-user"></i>
         <NavLink className={'link5'}>Profile</NavLink>

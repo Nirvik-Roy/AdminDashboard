@@ -1,0 +1,231 @@
+.profile_dashboard_heading{
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+.profileinfo_wrapper{
+  background-color: #0d0e28;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+}
+.profle_logo_name_wrapper{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+  display: flex;
+  align-items: center;
+}
+.profle_logo_name_wrapper img{
+  width: 70px;
+  border-radius: 15px;
+  margin-right: 30px;
+}
+.overview_teams_wrapper{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+  display: flex;
+  align-items: center;
+}
+.profile_name{
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 600;
+}
+.profile_email{
+  font-size: 14px;
+  color:#8793a7;
+}
+.overview_btn{
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #0075ff;
+  color: #FFF;
+  column-gap: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.teams_btn{
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  column-gap: 8px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.teams_btn:hover{
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #0075ff;
+  cursor: pointer;
+}
+.projects_btn{
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  column-gap: 8px;
+  font-size: 12px;
+  /* margin-left: 20px; */
+  cursor: pointer;
+}
+.profile_user_wrapper{
+  display: flex;
+  column-gap: 25px;
+  margin-top: 30px;
+}
+.welcomecard_wrapper{
+  background-image: url('../../assets/welcome-profile.309ed05e.png');
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+  height: 650px;
+  border-radius: 20px;
+  background-size: cover;
+  padding: 20px;
+}
+.welcomeback_heading{
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 600;
+}
+.welcomecard_wrapper p{
+  color: #FFF;
+  font-size: 14px;
+}
+.tap_to_record{
+  display: fl;
+  align-items: center;
+  font-size: 12px;
+  color: #FFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.car_info_wrapper{
+  width: 100%;
+  min-width: 40%;
+  max-width: 40%;
+  background:linear-gradient(to bottom right ,rgb(17, 18, 50),rgb(27, 30, 99));
+  border-radius: 20px;
+  padding: 20px;
+}
+.car_info_heading{
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFF;
+}
+.car_para{
+  color: #8e9bae;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.car_info_circle{
+  width: 100%;
+  max-width: 40%;
+  min-width: 40%;
+}
+.carinfo_graph{
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+.carinfo_graph .rc-progress-circle-path{
+  stroke: rgb(12, 158, 125) !important;
+}
+.current_load_div{
+  position: absolute;
+    top: 25%;
+    left: 41%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.current_load_div h3{
+  font-size: 32px;
+  font-weight: 900;
+  color: #FFF;
+}
+.current_load_div p{
+  font-size: 13px;
+  color: #8e9bae;
+}
+.battery_efficiency_wrapper{
+  display: flex;
+  margin-top: 20px;
+  column-gap: 20px;
+}
+.battery_health_div{
+  background-color: #070c25;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
+  border-radius: 20px;
+}
+.battery_health_logo{
+  padding: 10px 15px;
+  background-color: #0075ff;
+  color: #FFF;
+  font-size:20px;
+  border-radius: 10px;
+}
+.efficiency_div{
+  background-color: #070c25;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
+  border-radius: 20px;
+}
+.consumption_week_wrapper{
+  display: flex;
+  margin-top: 15px;
+  column-gap: 20px;
+}
+.consumption_div{
+  background-color: #070c25;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
+  border-radius: 20px;
+}
+.consumption_logo{
+  padding: 10px 15px;
+  background-color: #0075ff;
+  color: #FFF;
+  font-size:20px;
+  border-radius: 10px;
+}
+.week_div{
+  background-color: #070c25;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
+  border-radius: 20px;
+}
