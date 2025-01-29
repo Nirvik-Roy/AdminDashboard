@@ -4,6 +4,7 @@ import Header from '../../Layout/Header'
 import DebitCard from './DebitCard'
 import CreditCard from './CreditCard'
 import PaymentCard from './PaymentCard'
+import InvoiceCard from './InvoiceCard'
 
 const Bills = () => {
   useEffect(()=>{
@@ -26,7 +27,7 @@ const Bills = () => {
                 <PaymentCard />
               </div>
             </div>
-            <div className="invoices_div"></div>
+            <InvoiceCard />
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@
 }
 .credit_vision_invoices_wrapper{
   display: flex;
+  column-gap: 30px;
 }
 .credit_vision_div{
   width: 100%;
@@ -167,4 +168,61 @@
   color: #FFF;
   font-weight: 500;
   font-size: 14px;
+}
+.invoice_card_wrapper{
+  width: 100%;
+  min-width: 32%;
+  max-width: 32%;
+  height: 100%;
+  background: linear-gradient(to right ,rgb(9, 14, 46),rgb(33, 44, 106));
+  padding: 20px 15px;
+  border-radius: 20px;
+}
+.invoice_card_heading_button_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.invoice_card_heading_button_wrapper p{
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 600;
+}
+.invoice_btn{
+  padding: 5px 30px;
+  background-color: #0075ff;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFF;
+  border-radius: 10px;
+}
+.invoices_pdf_div{
+  display: flex;
+  align-items: center;
+}
+.invoices_data_1{
+  width: 225px;
+  max-width: 225px;
+  /* border: 1px solid white; */
+  padding: 19px 0px;
+}
+.invoices_data_2{
+  width: 60px;
+  max-width: 60px;
+  /* border: 1px solid white; */
+  font-size: 13px;
+  color: #9eacbe;
+  font-weight: 500;
+  padding: 19px 0px;
+}
+.invoices_data_3{
+  font-size: 13px;
+  color: #9eacbe;
+  padding: 19px 0px;
+}
+.invoices_table{
+  min-width: 400px;
+}
+.invoice_card_wrapper::-webkit-scrollbar{
+  display: none;
 }
