@@ -261,6 +261,8 @@
 }
 .billing_transaction_cards_wrapper{
   margin-top: 30px;
+  display: flex;
+  column-gap: 30px;
 }
 .users_bill_content{
   color: #a0aec0;
@@ -268,3 +270,75 @@
   margin-top: 10px;
   line-height: 20px;
 }
+.transaction_card_wrapper{
+  width: 100%;
+  min-width: 36.5%;
+  max-width: 36.5%;
+  padding: 20px ;
+  background: linear-gradient(to right ,rgb(9, 14, 46),rgb(33, 44, 106));
+  border-radius: 20px;
+}
+.transaction_card_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.transaction_card_header p{
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+.transaction_calender_section{
+  display: flex;
+  align-items: center;
+}
+.transaction_arrow_down{
+  border: 1px solid red;
+  padding: 1px 14px;
+  border-radius: 60%;
+  display: flex;
+  align-items: center;
+}
+.transaction_arrow_up{
+  border: 1px solid #03a871;
+  padding: 1px 14px;
+  border-radius: 60%;
+  display: flex;
+  align-items: center;
+}
+.transaction_data{
+  display: flex;
+  column-gap: 10px;
+}
+.transaction_content{
+  color: #FFF;
+}
+.transaction_table_heading{
+  font-size: 12px;
+  font-weight: 500;
+  color: #a0aec0;
+  padding: 15px 0px;
+}
+.transaction_data_1{
+  width: 310px;
+  max-width: 310px;
+  /* border: 1px solid white; */
+  padding: 12px 0px;
+}
+.transaction_data_2{
+  font-size: 12px;
+  width: 70px;
+  max-width: 70px;
+  /* border: 1px solid white; */
+}
+.transaction_table_1{
+  min-width: 300px;
+}
+.transaction_table_2{
+  min-width: 300px;
+}
+.transaction_card_wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+
