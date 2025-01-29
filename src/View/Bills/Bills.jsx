@@ -5,6 +5,7 @@ import DebitCard from './DebitCard'
 import CreditCard from './CreditCard'
 import PaymentCard from './PaymentCard'
 import InvoiceCard from './InvoiceCard'
+import BillingCard from './BillingCard'
 
 const Bills = () => {
   useEffect(()=>{
@@ -28,6 +29,9 @@ const Bills = () => {
               </div>
             </div>
             <InvoiceCard />
+            </div>
+            <div className="billing_transaction_cards_wrapper">
+              <BillingCard />
             </div>
           </div>
         </div>
