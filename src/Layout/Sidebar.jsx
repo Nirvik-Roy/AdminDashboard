@@ -51,7 +51,7 @@ const Sidebar = () => {
       
         </NavLink>
 
-        <NavLink to={'/cc'} className='sidebar_icons_div'>
+        <NavLink to={'/signin'} className='sidebar_icons_div'>
         <div  className='sidebar_icons_div2'>
         <i class="fa-solid fa-file"></i>
         <NavLink className={'link5'}>Sign In</NavLink>

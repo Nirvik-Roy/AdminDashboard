@@ -1,0 +1,229 @@
+.signin_page_wrapper{
+  position: relative;
+  display: flex;
+  height: 120vh;
+}
+.signin_left_section{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+  background-image: url('../../assets/signInImage.127192f6.png');
+  background-size: cover;
+  position: relative;
+}
+.signin_right_section{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+  background-color: #0a0e31;
+  padding-top: 180px;
+  /* padding-left: 120px; */
+  position: relative;
+}
+.image_text{
+  color: #FFF;
+  text-transform: uppercase;  
+  position: absolute;
+  top: 50%;
+  /* left: 5%; */
+  text-align: center;
+  width: 100%;
+}
+.future_text{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 10px;
+}
+.vision_text{
+  font-size: 35px;
+  margin-top: 5px;
+  letter-spacing: 10px;
+}
+/* Form Wrapper */
+.signin_form_wrapper {
+  padding: 40px 20px 0px 20px;
+  width: 100%;
+  min-width: 50%;
+  max-width: 50%;
+  /* border: 1px solid white; */
+  position: absolute;
+  left: 10%;
+}
+
+.signin_header_one{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #FFF;
+}
+
+.signin_header_two{
+  font-size: 14px;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+
+/* Form Fields */
+.signin_form_group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.signin_form_group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #d0d6e1;
+}
+.remember_me{
+  font-size: 13px;
+  color: #FFF;
+  margin-left: 8px;
+}
+
+.signin_form_group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #0f1535;
+  border: 2px solid #7d8091;
+  color: white;
+  outline: none;
+  font-size: 12px;
+}
+
+.signin_form_group input::placeholder {
+  color: #6c757d;
+}
+
+
+/* Wrapper for toggle */
+.toggle_switch {
+  position: relative;
+  width: 45px;
+  height: 20px;
+  display: inline-block;
+}
+
+.toggle_switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle_switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0f1535;
+  transition: 0.4s;
+  border-radius: 25px;
+}
+
+.toggle_switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.toggle_switch .slider.active {
+  background-color: #007bff;
+}
+
+.toggle_switch .slider.active:before {
+  transform: translateX(20px);
+}
+
+/* Sign In Button */
+.signin_button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  /* font-weight: bold; */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.signin_button:hover {
+  background-color: #0056b3;
+}
+
+/* Sign Up Link */
+.signup_prompt {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #adb5c2;
+  text-align: center;
+}
+
+.signup_prompt a {
+  color: #FFF;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup_prompt a:hover {
+  text-decoration: underline;
+}
+.signin_navbar_wrapper{
+  position: absolute;
+  width: 100%;
+  min-width: 70%;
+  max-width: 70%;
+  background-color: rgba(152, 96, 235, 0.424);
+  border-radius: 20px;
+  z-index: 999999;
+  left: 15%;
+  top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid gray;
+}
+.nav{
+  display: flex;
+  column-gap: 30px;
+}
+.nav a{
+  color: #FFF;
+  font-size: 14px;
+}
+.vision_free_logo{
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.buy_now_btn{
+  background-color: #007bff;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #FFF;
+  border: none;
+  text-transform: uppercase;
+}
+.signin_footer_btns{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8px;
+  color: #a0aec0;
+}

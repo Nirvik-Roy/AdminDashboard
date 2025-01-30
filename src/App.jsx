@@ -5,6 +5,7 @@ import Dashboard from './View/Dashboard/Dashboard'
 import Tables from './View/Tables/Tables'
 import Bills from './View/Bills/Bills'
 import Profile from './View/Profile/Profile'
+import SignIn from './View/SignIn/SignIn'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/bills' element={<Bills />} />
           <Route path='/profile' element={<Profile />} />
         </Route>
+        <Route path='/signin' element={<SignIn />} />
         </Routes>
       </BrowserRouter>
     </>
