@@ -10,6 +10,7 @@
   font-size: 15px;
   color: #FFF;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .authors_table_header{
   font-size: 17px;
@@ -99,8 +100,8 @@
 .table_dashboard_projects_table_wrapper{
   background: linear-gradient(to right ,rgb(9, 14, 46),rgb(33, 44, 106));
   border-radius: 20px;
-  padding: 0px 20px;
-  padding-top: 10px;
+  padding: 10px 20px;
+  /* padding-top: 10px; */
   margin-top: 30px;
 }
 .table_dashboard_projects_table_heading{

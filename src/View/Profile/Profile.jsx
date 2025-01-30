@@ -5,6 +5,8 @@ import ProfileInfo from './ProfileInfo'
 import WelcomeCard from './WelcomeCard'
 import CarinfoCard from './CarinfoCard'
 import AboutCard from './AboutCard'
+import PlatformSettings from './PlatformSettings'
+import ProfileProjects from './ProfileProjects'
 
 const Profile = () => {
   return (
@@ -19,6 +21,10 @@ const Profile = () => {
               <WelcomeCard />
               <CarinfoCard />
               <AboutCard />
+            </div>
+            <div className="platform_settings_projects_wrapper">
+              <PlatformSettings />
+              <ProfileProjects />
             </div>
           </div>
         </div>
