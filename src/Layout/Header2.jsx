@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SigninNavbar = () => {
+const Header2 = () => {
   return (
     <>
       <div className="signin_navbar_wrapper">
@@ -17,4 +17,4 @@ const SigninNavbar = () => {
   )
 }
 
-export default SigninNavbar
+export default Header2

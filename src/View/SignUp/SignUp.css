@@ -1,0 +1,13 @@
+.signup_page_wrapper{
+  position: relative;
+  display: flex;
+  height: 140vh;
+}
+.signup_left_section{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+  background-image: url('../../assets/signUpImage.c40a27bb.png');
+  background-size: cover;
+  position: relative;
+}

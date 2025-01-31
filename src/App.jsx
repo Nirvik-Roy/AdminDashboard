@@ -6,6 +6,7 @@ import Tables from './View/Tables/Tables'
 import Bills from './View/Bills/Bills'
 import Profile from './View/Profile/Profile'
 import SignIn from './View/SignIn/SignIn'
+import SignUp from './View/SignUp/SignUp'
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
           <Route path='/bills' element={<Bills />} />
           <Route path='/profile' element={<Profile />} />
         </Route>
-        <Route path='/signin' element={<SignIn />} />
+        <Route path='/sign-in' element={<SignIn />} />
+        <Route path='/sign-up' element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </>

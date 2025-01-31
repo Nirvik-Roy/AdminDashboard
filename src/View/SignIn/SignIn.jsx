@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './SignIn.css'
-import SigninNavbar from './SigninNavbar'
+import Header2 from '../../Layout/Header2';
 
 const SignIn = () => {
 
@@ -9,11 +9,15 @@ const SignIn = () => {
   const handleToggle = () => {
     setRememberMe((prevState) => !prevState);
   };
+
+  useEffect(()=>{
+        window.scrollTo({top:0, behavior:'instant'})
+      },[]);
   
   return (
     <>
       <div className="signin_page_wrapper">
-      <SigninNavbar />
+      <Header2 />
   <div className="signin_left_section">
     <div className="image_text">
       <p className="future_text">Inspired by the future:</p>
