@@ -24,12 +24,8 @@ const Dashboard = () => {
                <DashboardUser/>
                <Satisfactionrate/>
                <ReferralTracking/>
-               </div>
-               <div className="dashboard_areachart_barchart_wrapper">
                <AreaChart5/>
                <BarChart2 />
-               </div>
-               <div className="dashboard_user_project_order_wrapper">
                <Projects />
                <OrdersOverview />
                </div>

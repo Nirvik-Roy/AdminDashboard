@@ -315,8 +315,23 @@
   transition: background-color 0.3s ease;
   padding: 0.125rem;
 }
+.toggle-button2 {
+  position: relative;
+  width: 2.5rem;
+  height: 1.2rem;
+  border-radius: 9999px;
+  background-color: #0f1535;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 0.125rem;
+}
 
 .toggle-button.active {
+  background-color: #0075ff;
+}
+
+.toggle-button2.active {
   background-color: #0075ff;
 }
 
@@ -333,6 +348,9 @@
 }
 
 .toggle-button.active .toggle-circle {
+  transform: translateX(1.25rem) translateY(-50%);
+}
+.toggle-button2.active .toggle-circle {
   transform: translateX(1.25rem) translateY(-50%);
 }
 .profile_projects_section_wrapper{
